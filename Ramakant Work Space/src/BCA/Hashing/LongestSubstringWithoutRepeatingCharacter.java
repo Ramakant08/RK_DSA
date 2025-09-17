@@ -16,7 +16,7 @@ public class LongestSubstringWithoutRepeatingCharacter {
                 maxLength = Math.max(maxLength, length);
                 right++;
             } else {
-                while (left < s.length() && set.contains(s.charAt(left) + "")) {
+                while (left < s.length() && set.contains(s.charAt(right) + "")) {
                     set.remove(s.charAt(left) + "");
                     left++;
                 }

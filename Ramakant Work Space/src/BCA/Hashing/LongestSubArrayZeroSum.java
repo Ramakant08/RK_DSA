@@ -3,6 +3,7 @@ package BCA.Hashing;
 import java.util.HashMap;
 import java.util.Map;
 
+//[1, -1, 2, -2, 2, -2, -1, 1]
 public class LongestSubArrayZeroSum {
     static int maxLen(int[] input) {
         int longestSize = 0;
@@ -25,6 +26,6 @@ public class LongestSubArrayZeroSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(maxLen(new int[]{1, 0, -1}));
+        System.out.println( maxLen(new int[]{1, 0, -1}));
     }
 }
